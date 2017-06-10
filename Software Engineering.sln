@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lexical Analyser", "Scaner\Scaner.vcxproj", "{FF4F746C-B670-42B8-9DF4-F158F312D09B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6B09A7E5-9C6A-4FFF-8691-AD2C3CB2EC4A}"
+	ProjectSection(SolutionItems) = preProject
+		..\Software Engineering\Scaner\SimpleTask.txt = ..\Software Engineering\Scaner\SimpleTask.txt
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Syntax Analyser", "Syntax Analyser\Syntax Analyser.vcxproj", "{90EFAF36-E0CE-48EA-9A83-91CE71EDE91A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Code Generator", "Code Generator\Code Generator.vcxproj", "{28269CC6-B3EC-487E-9A22-A4CB7CBF1D3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF4F746C-B670-42B8-9DF4-F158F312D09B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FF4F746C-B670-42B8-9DF4-F158F312D09B}.Debug|Win32.Build.0 = Debug|Win32
+		{FF4F746C-B670-42B8-9DF4-F158F312D09B}.Debug|x64.ActiveCfg = Debug|Win32
+		{FF4F746C-B670-42B8-9DF4-F158F312D09B}.Release|Win32.ActiveCfg = Release|Win32
+		{FF4F746C-B670-42B8-9DF4-F158F312D09B}.Release|Win32.Build.0 = Release|Win32
+		{FF4F746C-B670-42B8-9DF4-F158F312D09B}.Release|x64.ActiveCfg = Release|Win32
+		{90EFAF36-E0CE-48EA-9A83-91CE71EDE91A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{90EFAF36-E0CE-48EA-9A83-91CE71EDE91A}.Debug|Win32.Build.0 = Debug|Win32
+		{90EFAF36-E0CE-48EA-9A83-91CE71EDE91A}.Debug|x64.ActiveCfg = Debug|Win32
+		{90EFAF36-E0CE-48EA-9A83-91CE71EDE91A}.Release|Win32.ActiveCfg = Release|Win32
+		{90EFAF36-E0CE-48EA-9A83-91CE71EDE91A}.Release|Win32.Build.0 = Release|Win32
+		{90EFAF36-E0CE-48EA-9A83-91CE71EDE91A}.Release|x64.ActiveCfg = Release|Win32
+		{28269CC6-B3EC-487E-9A22-A4CB7CBF1D3E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{28269CC6-B3EC-487E-9A22-A4CB7CBF1D3E}.Debug|Win32.Build.0 = Debug|Win32
+		{28269CC6-B3EC-487E-9A22-A4CB7CBF1D3E}.Debug|x64.ActiveCfg = Debug|Win32
+		{28269CC6-B3EC-487E-9A22-A4CB7CBF1D3E}.Release|Win32.ActiveCfg = Release|Win32
+		{28269CC6-B3EC-487E-9A22-A4CB7CBF1D3E}.Release|Win32.Build.0 = Release|Win32
+		{28269CC6-B3EC-487E-9A22-A4CB7CBF1D3E}.Release|x64.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
