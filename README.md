@@ -14,7 +14,7 @@ Complexity of the program have been defined by my grammar - subset of full SIGNA
 8.	\<procedure> --> PROCEDURE \<procedure-identifier>\<parameters-list> ;
 9.	\<parameters-list> -->( \<variable-identifier>\<identifiers-list> ) | \<empty> 
 10.	\<identifiers-list> -->  , \<variable-identifier>\<identifiers-list> | \<empty> 
-11.	\<statements-list> --> \<statement>\<statements-list> | \<empty>
+11.	\<statements-list> --> \<label-value>\<statement>\<statements-list> | \<empty>
 12.	\<statement> --> \<procedure-identifier>\<actual-arguments> ; | RETURN :
 13.	\<actual-arguments> --> ( \<unsigned-integer>\<actual-arguments-list> )  | \<empty> 
 14.	\<actual-arguments-list> --> , \<unsigned-integer>\<actual-arguments-list> | \<empty>
