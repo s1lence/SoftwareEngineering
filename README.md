@@ -5,7 +5,7 @@ This program translate simple program on SIGNAL language to Assembly language.
 Complexity of the program have been defined by my grammar - subset of full SIGNAL's grammar(read carefully, it's very specific stuff):
 
 1.	\<signal-program> --> \<program> 
-2.	\<program> --> PROCEDURE \<label-value>\<procedure-identifier>\<parameters-list>; \<block> . 
+2.	\<program> --> PROCEDURE \<procedure-identifier>\<parameters-list>; \<block> . 
 3.	\<block> --> \<declarations> BEGIN \<statements- list> END  
 4.	\<declarations> --> \<label-declarations> \<procedure-declarations> 
 5.  \<label-declarations> --> LABEL \<unsigned-integer> \<labels-list>
